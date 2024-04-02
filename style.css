@@ -1,28 +1,44 @@
 *{
-    padding: 0;
-    margin: 0;
+    margin:0px;
+    padding:0px;
 }
 
+
 body{
-    background-color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+
+
 }
+
+
+
 #container {   
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-    margin: 100px auto;
+    margin: 15px;
+    position: relative;
+
 
 
 };
 
 
 .cell{
-    
-    /* border: 1px solid whitesmoke; */
+
+    border: 1px solid whitesmoke;
+
 }
 
-.rows, .columns{
+.squares{
 
     border: 1px solid;
 
+
 }
+
